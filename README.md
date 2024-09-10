@@ -30,3 +30,5 @@ Inför en enkel navigation:
 
 Lägg till några länkar i header för att skapa en navigation (utan dropdown-menyer).
 På mobila enheter ska navigationslänkarna visas som block (en länk per rad), men på större skärmar ska de ligga i rad (horisontellt).
+
+Lycka till!
