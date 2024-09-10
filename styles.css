@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+main{
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    body{
+        background-color: lightblue;
+    }
+    main{
+        color: coral;
+    }
+}
+
+@media (min-width: 601px) {
+    body{
+        background-color: green;
+    }
+}
+
+@media (min-width: 1000px) {
+    body{
+        background-color: rgb(95, 3, 3);
+    }
+    main{
+     padding: 100px;
+    }
+}
