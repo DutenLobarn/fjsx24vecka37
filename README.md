@@ -71,6 +71,32 @@ Lägg till CSS för att centrera innehållet, förbättra layouten, och ändra t
 
 --------------------------------
 
+
+Avancerad Övning: "Skapa en bloggpost med semantisk HTML och tillgänglighetsförbättringar"
+Mål:
+Eleverna ska skapa en semantiskt korrekt blogginläggsstruktur, inkludera tillgänglighetsattribut och arbeta med SEO-vänliga element som förbättrar sidans struktur och synlighet i sökmotorer.
+
+Uppgifter:
+Skapa en semantisk bloggpost:
+
+Använd semantiska element för att skapa en blogginläggsstruktur som innehåller följande delar:
+Rubrik: Använd <header> för blogginläggets rubrik och författarinformation.
+Innehåll: Använd <article> för huvudtexten.
+Bild: Inkludera en bild i inlägget med en beskrivande text med hjälp av <figure> och <figcaption>.
+Kommentarer: Använd <section> för att lägga till en kommentaravdelning, där varje kommentar är en egen <article>.
+Footer: Använd <footer> i varje kommentar och i blogginlägget för att visa publiceringsdatum och eventuellt länkar till sociala medier.
+Tillgänglighetsförbättringar:
+
+Inkludera aria-label och andra ARIA-attribut där det är lämpligt för att förbättra tillgängligheten, till exempel för kommentarsavsnittet eller för förklarande text till bilder.
+Använd alt-attribut för alla bilder och se till att alla interaktiva element som länkar och knappar är tydliga och tillgängliga för skärmläsare.
+SEO-förbättringar:
+
+Använd korrekt rubrikstruktur (<h1> för blogginläggets titel, <h2> och <h3> för underrubriker) för att förbättra sidans hierarki och läsbarhet för sökmotorer.
+Använd metadata i <head>-delen (t.ex. <meta name="description" content="En bloggpost om semantisk HTML">).
+Inkludera strukturerad data med hjälp av schema.org (valfritt för mer avancerade elever) för att ge sökmotorer ytterligare information om sidan (t.ex. författare, datum, och ämne).
+
+--------------------------------
+
 Vanliga Semantiska HTML-element:
 <header>
 
