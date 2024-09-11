@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Webpage</title>
+  <style>
+    /* Generiska klasser som saknar tydlig mening */
+    .box {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .big-box {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .link-box {
+      margin: 10px 0;
+    }
+
+    .link-box a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .middle-box {
+      background-color: white;
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 800px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-box {
+      margin-top: 20px;
+    }
+
+    .comment-box {
+      margin-top: 20px;
+    }
+
+    .comment-text {
+      border-top: 1px solid #ddd;
+      padding: 10px;
+    }
+
+    .comment-footer-box {
+      text-align: right;
+      font-size: 0.8rem;
+      color: #666;
+    }
+
+    .small-box {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+
+    <div class="big-box">
+      <h1>Welcome to My Webpage</h1>
+      <div class="link-box">
+        <a href="#">Home</a> | 
+        <a href="#">About</a> | 
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
+    <div class="middle-box">
+      <h2>About Me</h2>
+      <p>This is some information about me. I am a web developer who loves creating websites.</p>
+
+      <div class="image-box">
+        <img src="html-image.jpg" alt="An image of semantisk HTML" style="width: 100%;">
+      </div>
+
+      <div class="comment-box">
+        <div class="comment-text">
+          <p>Great article about semantisk HTML!</p>
+          <div class="comment-footer-box">
+            Commented by: John Doe | 12 September 2024
+          </div>
+        </div>
+        <div class="comment-text">
+          <p>Very informative, especially the accessibility part. Thanks!</p>
+          <div class="comment-footer-box">
+            Commented by: Alice Smith | 13 September 2024
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="small-box">
+      <p>Footer information goes here</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
+
+<!-- 
+Elevernas uppgift:
+Omstrukturera HTML: Byt ut de generiska <div>-elementen mot mer meningsfulla och semantiska HTML-element.
+
+Tillämpa bättre semantisk separation: Identifiera var och hur semantiska element kan användas för att förbättra tillgängligheten och sökmotoroptimeringen. -->
+
+<!-- Vad som är dåligt med den här koden:
+    Överdriven användning av <div> och <span>.
+
+    Brist på semantiska avgränsningar: Kommentarerna är bara inslagna i divar utan någon särskild semantisk information, vilket gör det svårt för skärmläsare och sökmotorer att förstå strukturen.
+
+    Ingen semantisk indikation på navigering: Navigeringsmenyn är omsluten i en div utan att använda det semantiska rätta elementet.
+
+    Ingen tydlig struktur för huvudinnehållet: Allt innehåll är inslaget i divar, vilket gör det svårt för både webbläsare och hjälpmedel att förstå vad som är huvudtext, kommentarer, eller annan viktig information.
+ -->
+
+
+<!-- Vad som är dåligt med CSS:
+Generiska klassnamn: Klassnamn som .box, .big-box, och .small-box ger ingen tydlig indikation om vad de representerar eller vilken del av sidan de appliceras på. Det är svårt att förstå strukturen och syftet med varje sektion utan att behöva analysera hela CSS-filen.
+
+Ingen semantisk koppling till innehållet: Klassnamn som .middle-box och .comment-text ger ingen semantisk information om innehållet de representerar, vilket gör det svårt att förstå sidans logik.
+
+Dålig struktur och underhållbarhet: Användningen av dessa generiska namn gör koden svårare att underhålla och återanvända, särskilt om projektet växer eller fler utvecklare arbetar med det. -->
