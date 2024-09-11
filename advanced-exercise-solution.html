@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="En bloggpost om semantisk HTML och tillgänglighet">
+  <title>Bloggpost: Semantisk HTML och Tillgänglighet</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      line-height: 1.6;
+    }
+
+    header, footer {
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+
+    article {
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      width: 80%;
+      max-width: 800px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    figure {
+      margin: 0;
+      padding: 0;
+    }
+
+    figcaption {
+      font-size: 0.9rem;
+      text-align: center;
+      color: #555;
+    }
+
+    .comments section {
+      margin-top: 20px;
+    }
+
+    .comments article {
+      margin-top: 10px;
+      padding: 10px;
+      border-top: 1px solid #ddd;
+    }
+
+    .comments footer {
+      font-size: 0.8rem;
+      color: #666;
+      text-align: right;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Semantisk HTML och Tillgänglighet</h1>
+    <p>Författare: Jane Doe | Publicerad: 11 september 2024</p>
+  </header>
+
+  <article>
+    <h2>Vad är semantisk HTML?</h2>
+    <p>Semantisk HTML handlar om att använda HTML-element som beskriver innehållets betydelse och struktur för både webbläsare och människor.</p>
+
+    <figure>
+      <img src="html-image.jpg" alt="En illustration av semantisk HTML">
+      <figcaption>Illustration av semantiska element i HTML.</figcaption>
+    </figure>
+
+    <h3>Fördelarna med semantisk HTML</h3>
+    <p>Genom att använda semantiska element som <code>&lt;article&gt;</code>, <code>&lt;nav&gt;</code> och <code>&lt;footer&gt;</code>, kan du göra din webbplats mer tillgänglig för användare med funktionsnedsättningar och förbättra dess SEO.</p>
+    
+    <footer>
+      <p>Publicerad: 11 september 2024 | Dela på sociala medier</p>
+    </footer>
+  </article>
+
+  <section class="comments" aria-label="Kommentarsektion">
+    <h2>Kommentarer</h2>
+    
+    <article>
+      <p>Detta var en väldigt hjälpsam artikel om semantisk HTML!</p>
+      <footer>Kommenterat av: John Doe | 12 september 2024</footer>
+    </article>
+
+    <article>
+      <p>Jag uppskattar särskilt avsnittet om tillgänglighet. Tack!</p>
+      <footer>Kommenterat av: Alice Smith | 13 september 2024</footer>
+    </article>
+
+  </section>
+
+  <footer>
+    <p>Bloggens sidfot med länkar och kontaktinformation</p>
+  </footer>
+
+</body>
+</html>
+
+
+<!-- Förväntat resultat:
+Semantisk struktur: Eleverna använder semantiska element korrekt, som <header>, <article>, <figure>, och <footer>, för att strukturera blogginlägget och kommentarerna.
+Tillgänglighetsförbättringar: Skärmläsare kan bättre navigera mellan inlägg, bilder och kommentarer, och ARIA-attribut underlättar navigeringen ytterligare.
+SEO-förbättringar: Metataggar, korrekt rubrikstruktur och eventuell implementering av strukturerad data gör sidan mer sökmotorvänlig. -->
