@@ -68,3 +68,82 @@ Kopiera kod
 Studenternas uppgift:
 Omvandla strukturen till en semantisk HTML-struktur genom att byta ut <div>-taggar mot mer meningsfulla element som <header>, <nav>, <section>, och <footer>.
 Lägg till CSS för att centrera innehållet, förbättra layouten, och ändra typsnittsstyling.
+
+--------------------------------
+
+Vanliga Semantiska HTML-element:
+<header>
+
+Beskrivning: Används för att definiera sidhuvudet för en webbsida eller en sektion. Innehåller vanligtvis navigeringslänkar, logotyper eller rubriker.
+Tillgänglighet: Hjälper skärmläsare att identifiera och navigera i sidhuvudet, vilket underlättar orienteringen på sidan.
+SEO: Ger sökmotorer en tydlig signal om att detta är sidhuvudet, vilket kan förbättra sidans struktur och hierarki.
+<nav>
+
+Beskrivning: Markerar en sektion som innehåller navigeringslänkar till andra sidor eller delar av sidan.
+Tillgänglighet: Skärmläsare kan snabbt hoppa till och navigera genom navigeringslänkar, vilket underlättar navigation för användare med funktionsnedsättningar.
+SEO: Sökmotorer förstår att detta område innehåller viktiga länkar, vilket kan hjälpa till med sidindexering och användarupplevelse.
+<main>
+
+Beskrivning: Anger huvudinnehållet på en webbsida, vilket ska vara unikt för varje sida.
+Tillgänglighet: Skärmläsare kan hoppa direkt till huvudinnehållet, vilket förbättrar användbarheten för de som använder hjälpmedel.
+SEO: Genom att definiera det viktigaste innehållet, hjälper detta sökmotorer att förstå vad sidan handlar om.
+<article>
+
+Beskrivning: Representerar ett självständigt innehåll som kan distribueras eller återanvändas, som en blogginlägg, tidningsartikel eller foruminlägg.
+Tillgänglighet: Gör det enklare för skärmläsare att skilja mellan olika sektioner av innehåll.
+SEO: Sökmotorer kan lättare förstå att detta är en separat informationsenhet, vilket kan förbättra sidans indexering.
+<section>
+
+Beskrivning: Används för att definiera en sektion eller ett tema inom en sida, som en avdelning med relaterat innehåll.
+Tillgänglighet: Skärmläsare kan snabbt identifiera och hoppa mellan olika sektioner, vilket gör det enklare att navigera.
+SEO: Organiserar innehållet i tydliga sektioner, vilket kan förbättra sökmotorernas förståelse för sidans struktur.
+<aside>
+
+Beskrivning: Representerar sidoinnehåll eller innehåll som är relaterat till huvudinnehållet, som en sidopanel eller relaterade länkar.
+Tillgänglighet: Hjälper skärmläsare att förstå att detta innehåll är sekundärt till det huvudsakliga innehållet.
+SEO: Sökmotorer vet att detta är mindre centralt för sidans innehåll men kan fortfarande vara relevant för användaren.
+<footer>
+
+Beskrivning: Används för att definiera sidans eller sektionens sidfot, som ofta innehåller information som copyright, länkar till kontaktinformation eller annan nödvändig information.
+Tillgänglighet: Skärmläsare kan identifiera sidfoten och låta användare snabbt hoppa till den.
+SEO: Ger sökmotorer en signal om att detta är sidans slut och kan innehålla relevanta länkar och information.
+<h1> till <h6>
+
+Beskrivning: Rubriker används för att definiera hierarkin av innehåll på en sida, från huvudrubriken (<h1>) till underrubriker (<h2>, <h3>, etc.).
+Tillgänglighet: Hjälper skärmläsare att navigera och förstå strukturen på sidan, så att användare kan hoppa mellan rubriker.
+SEO: Sökmotorer använder rubriker för att förstå hierarkin och vikten av olika delar av innehållet. En korrekt struktur förbättrar sökmotorns förståelse.
+<figure> och <figcaption>
+
+Beskrivning: <figure> används för att gruppera visuellt media som bilder och diagram, medan <figcaption> ger en förklaring till bilden eller figuren.
+Tillgänglighet: Skärmläsare kan läsa upp beskrivningen för användare, vilket gör visuellt innehåll mer tillgängligt.
+SEO: Sökmotorer kan bättre förstå och indexera bildinnehåll, särskilt om det åtföljs av en meningsfull beskrivning.
+<mark>
+
+Beskrivning: Markerar text som är av särskild vikt eller som ska betonas.
+Tillgänglighet: Skärmläsare läser markerad text med extra betoning, vilket kan förbättra förståelsen för användare.
+SEO: Genom att använda <mark> kan du lyfta fram viktig information, vilket kan bidra till bättre användarupplevelse och sökmotorns förståelse för viktiga delar av texten.
+<time>
+
+Beskrivning: Representerar en tidsangivelse eller ett datum.
+Tillgänglighet: Hjälper skärmläsare att läsa upp datum och tider korrekt, vilket förbättrar användarupplevelsen.
+SEO: Sökmotorer kan förstå och indexera tidsstämplar bättre, vilket kan vara viktigt för nyhetsinnehåll eller bloggar.
+Mindre vanliga semantiska element:
+<summary> och <details>
+
+Beskrivning: <details> används för att visa eller dölja ytterligare information. <summary> fungerar som rubriken för den dolda/visade informationen.
+Tillgänglighet: Skärmläsare kan lättare hantera innehållet och låta användare välja om de vill visa eller dölja specifik information.
+SEO: Sökmotorer kan indexera både sammanfattningen och det dolda innehållet, vilket förbättrar sidans synlighet.
+<address>
+
+Beskrivning: Används för att ange kontaktuppgifter eller adressinformation på en sida.
+Tillgänglighet: Skärmläsare kan identifiera adressinformation och presentera den på ett meningsfullt sätt.
+SEO: Sökmotorer förstår att detta är kontaktinformation, vilket kan bidra till bättre indexering, särskilt för lokalt innehåll.
+<blockquote>
+
+Beskrivning: Används för att citera text från en annan källa, ofta tillsammans med attributet cite för att ange källan.
+Tillgänglighet: Hjälper skärmläsare att identifiera citat och läsa upp dem som sådana.
+SEO: Sökmotorer ser detta som citerad information, vilket kan öka sidans trovärdighet.
+Viktigheten av Semantisk HTML för Tillgänglighet och SEO:
+Tillgänglighet: Semantiska element hjälper skärmläsare att identifiera och navigera genom olika delar av innehållet. Användare med funktionsnedsättningar får en bättre upplevelse eftersom innehållet presenteras på ett mer logiskt och strukturerat sätt.
+
+SEO: Sökmotorer använder HTML-strukturen för att förstå och indexera webbsidor. Semantiska element förbättrar sökmotorns förmåga att förstå vad varje del av sidan representerar, vilket kan leda till bättre sökrankningar och synlighet i sökresultat.
